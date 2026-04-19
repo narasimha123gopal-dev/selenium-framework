@@ -1,9 +1,9 @@
-<suite name="Automation Suite">
-
-    <test name="Login Test">
+<suite name="Suite">
+    <test name="AllTests">
         <classes>
             <class name="tests.LoginTest"/>
+            <class name="tests.OrderTest"/>
+            <class name="tests.NegativeTest"/>
         </classes>
     </test>
-
 </suite>
